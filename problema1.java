@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
 
 /* Esta clase fue creada para calcular el promedio 
-de 5 calificaciones de un estudiante
+de 6 calificaciones de un estudiante
 Esta clase se encarga de calcular el promedio.
  * @author Eddy Ruiz
  * @since 30-07-2024
@@ -24,9 +24,10 @@ public static void main (String[]args){
     int nota3 = scan.nextInt();
     int nota4 = scan.nextInt();
     int nota5 = scan.nextInt();
+    int nota6 = scan.nextInt();
 
 //se imprime el promedio de las notas 
-    int resultado = (nota1 + nota2 +nota3 +nota4 +nota5 )/5;
+    int resultado = (nota1 + nota2 +nota3 +nota4 +nota5 +nota6)/6;
 System.out.println (resultado);
     }
 }
